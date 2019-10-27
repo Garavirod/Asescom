@@ -1,0 +1,13 @@
+{% extends 'core/base.html' %}
+
+{% block title %}.:Home:.{% endblock%}
+
+<!-- To load static files first we have to load in memory -->
+{% block background %}{% load static%}{% static 'core/img/home-bg.jpg' %}{% endblock %}              
+
+{% block headers %}
+<h1>ASESCOM</h1>
+<span class="subheading">Asesorias estudiantiles</span>
+{% endblock %}   
+
+

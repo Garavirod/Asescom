@@ -1,0 +1,23 @@
+{% extends 'core/base.html' %}
+
+{% block title %}.:Contacts:.{% endblock%}
+
+<!-- We load the background -->
+{% block background %}{% load static%}{% static 'core/img/contact-bg.jpg' %}{% endblock %}              
+
+<!-- Insertamos los headers -->
+{% block headers %}
+<h1>Contactos y horarios</h1>
+<span class="subheading">Asesoría</span>
+{% endblock %} 
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Consigue una cita y asiste a tu asesoria en el los siguientes horarios que tenemos disponibles para tí</p>
+        <br>
+        <p><b>Teléfono:</b> +09 876 543 210</p>
+        <p><b>Honorarios:</b> Entre semana de : 3:00 pm a 6:00 pm</p>
+    </div>
+</div>
+{% endblock content %}
